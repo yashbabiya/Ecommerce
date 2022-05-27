@@ -1,0 +1,25 @@
+.productPage{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    h1{
+        font-size: 4em;
+    }
+    img{
+        // width: 80vw;
+        width: 100%;
+        max-width: 50em;
+    }
+    .image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .priceInPage{
+        font-size: 3em;
+    }
+    .brand{
+
+    }
+}

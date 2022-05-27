@@ -1,0 +1,14 @@
+.recents {
+  h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+  .recentSlider {
+    display: flex;
+    width: 100%;
+    gap: 3em;
+    overflow-x: scroll;
+    scrollbar-width: 0;
+    padding-bottom: 3em;
+  }
+}

@@ -1,0 +1,13 @@
+.recentCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ECECEC;
+    padding: 2em;
+    width: fit-content;
+    border-radius: 2em;
+    img{
+        width: 200px;
+    }
+}

@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    opacity: .9;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    // padding: 2em 3em;
+    h1{
+        font-size: 3rem;
+        opacity: 1 !important;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        
+        gap: 5em;
+        line-height: 3em;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+    
+}

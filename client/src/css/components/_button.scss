@@ -1,0 +1,16 @@
+.button{
+    background-color: #1900F5;
+    color: white;
+    font-weight: bold;
+    border-radius: 1em;
+    border: none;
+    padding: 1.5em 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+    .arrow{
+        transform: rotateZ(45deg);
+       
+    }
+}

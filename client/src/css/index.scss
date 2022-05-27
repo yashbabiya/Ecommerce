@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+@import './components/header';
+@import './components/button';
+@import './components/recentCard';
+@import './components/recentSlider';
+@import './components/footer';
+@import './components/productCard';
+@import './pages/shop';
+@import './pages/home';
+@import './pages/product';
+@import './pages/cart';
+@import './pages/login';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    font-size: calc(min(3.2vw,1em));
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    cursor: pointer;
+}
+.App{
+    .page{
+        padding: 2em 3em;
+    }
+}
